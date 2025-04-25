@@ -1,9 +1,9 @@
 # Node.js
-node_modules/
-.env
+/node_modules
+/.env
 
 # Vercel
-.vercel/
+/.vercel
 
 # Logs
 npm-debug.log*
