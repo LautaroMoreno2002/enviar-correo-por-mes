@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "api/enviarCorreo.js",
+      "use": "@vercel/node"
+    }
+  ]
+}
