@@ -4,5 +4,11 @@
       "src": "api/enviarCorreo.js",
       "use": "@vercel/node"
     }
-  ]
+  ],
+    "crons": [
+      {
+        "path": "/api/cron",
+        "schedule": "0 7 * * *"
+      }
+    ]
 }
